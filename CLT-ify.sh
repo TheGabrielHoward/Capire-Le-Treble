@@ -104,6 +104,3 @@ fi
 
 echo "Create Image"
 sudo $make_ext4fs -T 0 $fcontexts -l $syssize -L system -a system -s "$output" "$systemdir/"
-
-echo "Remove Temp dir"
-sudo rm -rf "$tempdir"
